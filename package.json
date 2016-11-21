@@ -9,6 +9,10 @@
     "test-watch": "karma start --auto-watch --no-single-run",
     "start": "npm run build && node prod.js"
   },
+
+  "scripts": {
+    "heroku-postbuild": "npm run build && node prod.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Foxandxss/angular-webpack-workflow.git"
